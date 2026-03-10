@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "num_samples_evaluated": 5,
+        "timestamp": 1772946892.605431
+    },
+    "model_performance": {
+        "summarization": {
+            "BART": {
+                "rouge1": 0.32588066171978536,
+                "rouge2": 0.16347581153377214,
+                "rougeL": 0.21574114260576022,
+                "rougeLsum": 0.21391697262598758,
+                "avg_latency_seconds": 22.6135,
+                "avg_compression_ratio": 21.39
+            },
+            "mT5": {
+                "rouge1": 0.18407946175467016,
+                "rouge2": 0.058441558441558426,
+                "rougeL": 0.12871572871572873,
+                "rougeLsum": 0.13005372384810482,
+                "avg_latency_seconds": 2.7314,
+                "avg_compression_ratio": 91.68
+            },
+            "TextRank": {
+                "rouge1": 0.47417884884781253,
+                "rouge2": 0.25047986780403997,
+                "rougeL": 0.328954366423321,
+                "rougeLsum": 0.3296302233133065,
+                "avg_latency_seconds": 0.0263,
+                "avg_compression_ratio": 49.9
+            }
+        },
+        "quiz_generation": {
+            "avg_latency_seconds": 38.3846,
+            "avg_mcqs_per_doc": 7.0,
+            "avg_true_false_per_doc": 4.8,
+            "avg_fill_in_blanks_per_doc": 4.8,
+            "avg_flashcards_per_doc": 13.8
+        },
+        "voice_agent": {
+            "avg_latency_seconds": 1.3112
+        }
+    }
+}

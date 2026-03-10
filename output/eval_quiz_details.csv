@@ -1,0 +1,6 @@
+id,latency_seconds,mcqs_generated,true_false_generated,fill_in_blanks_generated,flashcards_generated
+0,27.0643,7,5,5,15
+1,23.0761,7,4,4,13
+2,42.1197,7,5,5,11
+3,42.8058,7,5,5,15
+4,56.857,7,5,5,15
